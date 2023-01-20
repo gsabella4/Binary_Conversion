@@ -16,8 +16,8 @@ public class DecimalToBinary_CLI {
 
     public static void main(String[] args) {
 
-        System.out.println("\n\n\tWelecome to the Decimal to Binary Converter!");
-        System.out.println("\n\t...and a ASCII Art Gameboy. Why not?");
+        System.out.println("\n\n\t Welecome to the Decimal to Binary Converter!");
+        System.out.println("\n\t ...and a ASCII Art Gameboy. Why not?");
         System.out.println("\n_n_________________");
         System.out.println("|_|_______________|_|");
         System.out.println("|  ,-------------.  |");

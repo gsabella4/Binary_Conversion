@@ -18,7 +18,7 @@ public class File_IO_DecimalToBinary {
                 n++;
             }
         } catch (FileNotFoundException e){
-            System.out.println("file not found error!");
+            System.out.println("Error! File not found");
         }
 
         //reading binaryInput.txt, logic converts each number to binary, and prints to binaryOutput.txt
@@ -33,10 +33,10 @@ public class File_IO_DecimalToBinary {
                     binaryResult = eachModulus + binaryResult;
                     eachInteger /= 2;
                 }
-                writerB.println(num + " converted to Binary is: " + binaryResult);
+                writerB.println(num + " Converted to Binary is: " + binaryResult);
             }
         } catch (FileNotFoundException e){
-            System.out.println("File not found");
+            System.out.println("Error! File not found");
         }
     }
 }
