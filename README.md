@@ -5,4 +5,4 @@
 
 -CLI Converter - decimal to binary w/ bitcount & binary to decimal
 
-[![Run on Repl.it](https://replit.com/badge/github/gsabella4/Binary_Conversion?lite=1)](https://replit.com/new/github/gsabella4/Binary_Conversion?lite=1)
+[![Run on Repl.it](https://replit.com/badge/github/gsabella4/Binary_Conversion)](https://replit.com/new/github/gsabella4/Binary_Conversion)
