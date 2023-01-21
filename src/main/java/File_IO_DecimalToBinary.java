@@ -22,8 +22,9 @@ public class File_IO_DecimalToBinary {
         }
 
         //reading binaryInput.txt, logic converts each number to binary, and prints to binaryOutput.txt
+        File output = new File("binaryOutput.txt");
         try(Scanner reader = new Scanner(binaryInput);
-            PrintWriter writerB = new PrintWriter(new FileOutputStream("binaryOutput.txt", true))){
+            PrintWriter writerB = new PrintWriter(output)){
             while(reader.hasNext()){
                 int num = Integer.parseInt(reader.nextLine());
                 String binaryResult = "";

@@ -35,11 +35,13 @@ public class DecimalToBinary_CLI {
         Scanner scanner = new Scanner(System.in);
         int status = 1;
         while(status == 1){
-        System.out.println("\n****************************************");
+        System.out.println("\n");
+        System.out.println("****************************************");
         System.out.println("*                                      *");
         System.out.println("*          --- Main Menu ---           *");
-            System.out.println("*                                      *");
-            System.out.println("****************************************\n");
+        System.out.println("*                                      *");
+        System.out.println("****************************************");
+        System.out.println("\n");
         System.out.println("   Decimal to Binary? ---> Press 1");
         System.out.println("   Binary to Decimal? ---> Press 2");
         System.out.print("\n   Selection: ");
